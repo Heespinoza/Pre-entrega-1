@@ -1,7 +1,7 @@
 {
   "name": "entrega-1",
   "version": "1.0.0",
-  "description": "",
+  "description": "sdada",
   "main": "app.js",
   "scripts": {
     "start": "node ./src/app.js",
@@ -17,4 +17,5 @@
   "dependencies": {
     "express": "^4.21.2"
   }
+  
 }

@@ -1,1 +1,25 @@
-[]
+[
+  {
+    "id": 1,
+    "title": "Teclado Mecánico RGB",
+    "description": "Teclado mecánico con retroiluminación RGB y switches azules.",
+    "price": 88.99,
+    "code": "TKB001",
+    "stock": 49,
+    "category": "Periféricos",
+    "thumbnails": [
+      "https://example.com/images/teclado1.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "title": " Mecánico RGB",
+    "description": "Teclado mecánico con retroiluminación RGB y switches azules.",
+    "price": 9.99,
+    "code": "B001",
+    "stock": 50,
+    "category": "Periféricos",
+    "status": true,
+    "thumbnails": []
+  }
+]
