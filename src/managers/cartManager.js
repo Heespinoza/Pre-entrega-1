@@ -1,13 +1,13 @@
 const fs = require("fs").promises;
 
 class CartManager{
-  static ultId = 0;
 
-  constructor(path){
-    this.cart = [];
+
+constructor(path){
+    
     this.path = path;
-  } 
-  async createCart() {
+} 
+async createCart() {
     const carts = await this.getCarts();
     const newCart = { id: carts.length > 0 ? carts[carts.length - 1].id + 1 : 1, products: [] };
     carts.push(newCart);
